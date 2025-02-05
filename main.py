@@ -39,7 +39,7 @@ def record_voice():
         print("🎤 Listening... Speak now.")
 
         try:
-            audio = recognizer.listen(source, timeout=10, phrase_time_limit=15)  # Increased timeout
+            audio = recognizer.listen(source, timeout=1000, phrase_time_limit=1500)  # Increased timeout
             print("✅ Captured audio. Processing...")
             return recognizer.recognize_google(audio)  # Convert speech to text
 
@@ -137,6 +137,7 @@ def is_math_expression(text):
 
 def evaluate_math_expression(expression):
     """Safely evaluate a mathematical expression."""
+    print(expression)
     try:
         result = eval(expression, {"__builtins__": None}, {})  # Safe eval
         return f"The result is {result}"
