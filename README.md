@@ -1,5 +1,5 @@
 # **ChatGPT Voice Assistant with Persistent Memory & Math Execution**
-🚀 **A smart AI voice assistant** that listens for a wake word ("Hey ChatGPT"), responds using OpenAI's GPT-4o-mini, remembers past conversations using FAISS, and executes math calculations locally.  
+🚀 **A smart AI voice assistant** that listens for a wake word ("Hey GPT"), responds using OpenAI's GPT-4o-mini, remembers past conversations using FAISS, and executes math calculations locally.  
 
 ## ✨ **Features**
 ✅ **Wake Word Activation** - Uses `Porcupine` for always-on listening  
