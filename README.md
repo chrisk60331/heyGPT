@@ -26,7 +26,7 @@ Create a `.env` file:
 ```
 OPENAI_API_KEY=your_openai_api_key
 ACCESS_KEY=your_porcupine_access_key
-PPN_FILE=path/to/hey_chatgpt.ppn
+PPN_FILE=Hey-Gee-Pee-Tee_en_mac_v3_0_0.ppn
 ```
 
 ---
