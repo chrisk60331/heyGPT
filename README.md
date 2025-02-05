@@ -14,7 +14,7 @@
 ## 📥 **Installation**
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone [https://github.com/chrisk60331/heyGPT](https://github.com/chrisk60331/heyGPT)
+git clone https://github.com/chrisk60331/heyGPT
 cd chatgpt-voice-assistant
 ```
 ### 2️⃣ **Install Dependencies**
