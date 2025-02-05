@@ -42,29 +42,4 @@ python chatgpt_assistant.py
 4. **Ask a math question** (e.g., "What is 12 * 9?") for instant calculation.  
 5. Restart anytime — **chat history is saved!**  
 
----
 
-## 🛠 **Configuration**
-| Feature | Description |
-|---------|-------------|
-| **Wake Word** | Uses Porcupine (`hey_chatgpt.ppn`) |
-| **Chat Memory** | Stored using FAISS (`faiss_index.bin`) |
-| **Long Questions** | Supports **15-sec voice input** |
-| **Math Handling** | Uses Python `eval()` safely |
-| **Whisper API (Optional)** | Replace Google STT with Whisper |
-
----
-
-## 🔥 **Upcoming Features**
-- **Home Automation** (Control IoT devices)  
-- **GUI Interface** (For non-voice input)  
-- **Multi-User Profiles** (Separate memory for each user)  
-
----
-
-## 🤝 **Contributing**
-Feel free to fork, submit PRs, and improve the assistant!  
-
----
-
-### 🎉 **Now, Say "Hey ChatGPT" & Enjoy Your Personal AI Assistant!** 🚀
